@@ -1,0 +1,33 @@
+/* Center everything on the screen */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Style the word display */
+#word {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the input field */
+#input {
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+}
+
+/* Add a hover effect for a professional feel */
+#input:focus {
+    border-color: #007bff;
+}
