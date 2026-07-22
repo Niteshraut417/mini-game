@@ -1,6 +1,7 @@
 const words = ["coding", "github", "javascript", "game"];
 let currentWord = words[0];
 
+
 const wordDisplay = document.getElementById("word");
 const inputField = document.getElementById("input");
 
